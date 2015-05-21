@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'responsive-test-font';
+	src:url('fonts/responsive-test-font.eot?-utmvjs');
+	src:url('fonts/responsive-test-font.eot?#iefix-utmvjs') format('embedded-opentype'),
+		url('fonts/responsive-test-font.woff?-utmvjs') format('woff'),
+		url('fonts/responsive-test-font.ttf?-utmvjs') format('truetype'),
+		url('fonts/responsive-test-font.svg?-utmvjs#responsive-test-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'responsive-test-font';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-banknote:before {
+	content: "\e600";
+}
+
+.icon-shop:before {
+	content: "\e601";
+}
+
+.icon-truck:before {
+	content: "\e602";
+}
+
